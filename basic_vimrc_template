@@ -1,0 +1,64 @@
+execute pathogen#infect()
+filetype off
+syntax on
+filetype plugin indent on
+
+" INSTRUCTIONS
+" make two directories to store vims tmp files in:
+" 1. ~/.vim-bkup
+" 2. ~/.vim-tmp
+
+"""""""""""""""""""""""""""""""""""""""""""" 
+"	Set Swap and backup files storage path	
+"
+""""""""""""""""""""""""""""""""""""""""""""
+set backupdir=~/.vim-bkup
+set dir=~/.vim-tmp
+
+"""""""""""""""""""""""""""""""""""""""""""" 
+"	TAB STOP SETTINGS	
+"
+""""""""""""""""""""""""""""""""""""""""""""
+set tabstop=2  "tab in two spaces
+set sw=2
+
+
+"""""""""""""""""""""""""""""""""""""""""""" 
+"	SWAP VIEWS SHORTCUTS	
+"
+""""""""""""""""""""""""""""""""""""""""""""
+nmap <silent> <C-h> :wincmd h<CR>  " ctrl+h  move to view on left
+nmap <silent> <C-j> :wincmd j<CR> " ctrl+j  move to view below
+nmap <silent> <C-k> :wincmd k<CR> " ctrl+k  move to view above
+nmap <silent> <C-l> :wincmd l<CR> " ctrl+l  move to view on right 
+
+" save 
+nmap <silent> <F4> :w<CR> " Save short cut.
+
+" tab navigation 
+nmap <silent> <F5> :tabp<CR> " move to previous tab. 
+nmap <silent> <F6> :tabn<CR> " move to next tab. 
+nnoremap th :tabfirst<CR>
+nnoremap tl :tablast<CR>
+nnoremap tk :tabp<CR>
+nnoremap tj :tabn<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""""" 
+" my Basic Z Commands	
+""""""""""""""""""""""""""""""""""""""""""""
+"Make (Zpath) command to show current path of file being viewed.
+:command Zpath echo expand('%:p')
+
+"	RESIZE SPLIT WINDOWS / VIEWS	
+:command Zwshrink vertical resize -15
+:command Zwexpand vertical resize +15
+:command Zhshrink resize -8
+:command Zhexpand resize +8
+
+:command Ztleft execute 'silent! tabmove ' . (tabpagenr()-2)
+:command Ztright execute 'silent! tabmove ' . tabpagenr()
+
+
+" html format to node.js ejs files
+au BufNewFile,BufRead *.ejs set filetype=html
