@@ -96,12 +96,12 @@ Split window shortcuts and commands
 </tr>
 </table>
 	
-
 -- Shortcuts to resize split windows  
 :Zwshrink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink width by 15 spaces.   
 :Zwexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- expand width by 15 spaces  
 :Zhshrink  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink height by 8 spaces  
 :Zhexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;								-- expand height by 8  
+
 
 
 
