@@ -21,18 +21,19 @@ mkdir ~/.vim-tmp
 Tab navigation shortcuts
 -----------------------------------
 	short cut 	vim command		description
-  tj 						:tabn 					-- go to tab at right of current.
-  tk 						:tabp 					-- go to tab at left of current.
-	th  					:tabfirst				-- go to first tab in window.
-	tl  					:tablast				-- go to last tab in window.
-	
-	F4						:w							-- save document
-	F5						:tabp						-- previous tab same as tk shortcut
-	F6						:tabn 					-- next tab same as tj shortcut	
 
-	-- move tabs around
-	:Ztleft                       -- move current window left in tab list. 
-	:Ztright                      -- move current window right in tab list. 
+  tj            :tabn 					-- go to tab at right of current.  
+  tk 						:tabp 					-- go to tab at left of current.  
+	th  					:tabfirst				-- go to first tab in window.  
+	tl  					:tablast				-- go to last tab in window.  
+	
+	F4						:w							-- save document  
+	F5						:tabp						-- previous tab same as tk shortcut  
+	F6						:tabn 					-- next tab same as tj shortcut	  
+
+	-- move tabs around  
+	:Ztleft                       -- move current window left in tab list.   
+	:Ztright                      -- move current window right in tab list.   
 
 
 -----------------------------------
