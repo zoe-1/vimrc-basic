@@ -3,6 +3,9 @@ filetype off
 syntax on
 filetype plugin indent on
 
+" Nerd Commenter leader
+let mapleader = ","
+
 " INSTRUCTIONS
 " make two directories to store vims tmp files in:
 " 1. ~/.vim-bkup
@@ -19,8 +22,8 @@ set dir=~/.vim-tmp
 "	TAB STOP SETTINGS	
 "
 """"""""""""""""""""""""""""""""""""""""""""
-set tabstop=2  "tab in two spaces
-set sw=2
+set tabstop=4 expandtab "tab made to four spaces
+set sw=4
 
 
 """""""""""""""""""""""""""""""""""""""""""" 
@@ -62,3 +65,8 @@ nnoremap tj :tabn<CR>
 
 " html format to node.js ejs files
 au BufNewFile,BufRead *.ejs set filetype=html
+
+" vim-jsbeautify
+map <c-f> :call JsBeautify()<cr>
+
+"colorscheme vividchalk
