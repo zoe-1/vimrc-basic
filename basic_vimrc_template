@@ -70,3 +70,15 @@ au BufNewFile,BufRead *.ejs set filetype=html
 map <c-f> :call JsBeautify()<cr>
 
 "colorscheme vividchalk
+"
+
+" Enables HTML/CSS syntax highlighting in your JavaScript file.
+" pangloss/vim-javascript
+
+let g:javascript_enable_domhtmlcss = 1
+
+" configure to highlight jsx in .js files not just .jsx files.
+" mxw/vim-jsx
+
+let g:jsx_ext_required = 0
+
