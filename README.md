@@ -103,7 +103,7 @@ Split window shortcuts and commands
 :Zhexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;								-- expand height by 8  
 
 
-
-
-
+#### remove whitespace from end of lines
+* <F7>
+* :Trim
 
