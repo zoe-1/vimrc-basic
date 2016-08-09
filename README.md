@@ -104,6 +104,6 @@ Split window shortcuts and commands
 
 
 #### remove whitespace from end of lines
-* <F7>
+* F7
 * :Trim
 
