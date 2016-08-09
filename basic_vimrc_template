@@ -82,3 +82,20 @@ let g:javascript_enable_domhtmlcss = 1
 
 let g:jsx_ext_required = 0
 
+" Remove all trailing whitespace by pressing F7
+" Or, remove by typing :Trim
+" source below: 
+" http://vi.stackexchange.com/questions/454/whats-the-simplest-way-to-strip-trailing-whitespace-from-all-lines-in-a-file
+
+command Trim call Trim()
+nnoremap <silent> <F7> :call Trim() <CR>
+fun! Trim()
+    " save view with cursor location.
+    let l:save = winsaveview()
+    " remove all white spaces but cursor moved to last
+    " white space removed. 
+    %s/\s\+$//e
+    " restore view with cursor at saved location.
+    call winrestview(l:save)
+    :w
+endfun
