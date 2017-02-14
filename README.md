@@ -17,16 +17,6 @@ mkdir ~/.vim-tmp
 
 
 -----------------------------------
-Essential Buffers Commands 
------------------------------------
-
-:ls List the current buffers (including their numbers).
-:b <number> Display the buffer with the given number.
-:b <partial> Display the first buffer matching the partial name (or press Tab for name completion).
-:bd Delete the current buffer; will fail if unsaved (nothing is deleted).
-:bd!    Delete the current buffer; will discard any changes (changes are lost).
-
------------------------------------
 Tab navigation shortcuts
 -----------------------------------
 <table>
@@ -106,6 +96,17 @@ Split window shortcuts and commands
 </tr>
 </table>
 	
+-----------------------------------
+Essential Buffers Commands 
+-----------------------------------
+
+:ls List the current buffers (including their numbers).
+:b <number> Display the buffer with the given number.
+:b <partial> Display the first buffer matching the partial name (or press Tab for name completion).
+:bd Delete the current buffer; will fail if unsaved (nothing is deleted).
+:bd!    Delete the current buffer; will discard any changes (changes are lost).
+
+
 -- Shortcuts to resize split windows  
 :Zwshrink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink width by 15 spaces.   
 :Zwexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- expand width by 15 spaces  
