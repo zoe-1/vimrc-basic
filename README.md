@@ -102,18 +102,22 @@ Essential Buffers Commands
 
 command |     description
 ------- | ------------------
-**:ls**            |   List the current buffers (including their numbers).<br/>
-**:b** \<number\>    |   Display the buffer with the given number.<br/>
-**:b** \<partial\>   |   Display the first buffer matching the partial name (or press Tab for name completion).<br/>
-**:bd**            |   Delete the current buffer; will fail if unsaved (nothing is deleted).<br/>
-**:bd!**           |   Delete the current buffer; will discard any changes (changes are lost).<br/>
+**:ls**                 |   List the current buffers (including their numbers).<br/>
+**:b** \<number\>       |   Display the buffer with the given number.<br/>
+**:b** \<partial\>      |   Display the first buffer matching the partial name (or press Tab for name completion).<br/>
+**:bd**                 |   Delete the current buffer; will fail if unsaved (nothing is deleted).<br/>
+**:bd!**                |   Delete the current buffer; will discard any changes (changes are lost).<br/>
 
 
--- Shortcuts to resize split windows
-:Zwshrink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink width by 15 spaces.
-:Zwexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- expand width by 15 spaces
-:Zhshrink  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink height by 8 spaces
-:Zhexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;								-- expand height by 8
+-----------------------------------
+Resize split windows
+-----------------------------------
+command     |   description
+----------- | ---------------------
+**:Zwshrink**  | shrink width by 15 spaces.
+**:Zwexpand**  | expand width by 15 spaces
+**:Zhshrink**  | shrink height by 8 spaces
+**:Zhexpand**  | expand height by 8
 
 
 #### remove whitespace from end of lines
