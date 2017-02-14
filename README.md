@@ -17,6 +17,16 @@ mkdir ~/.vim-tmp
 
 
 -----------------------------------
+Essential Buffers Commands 
+-----------------------------------
+
+:ls List the current buffers (including their numbers).
+:b <number> Display the buffer with the given number.
+:b <partial> Display the first buffer matching the partial name (or press Tab for name completion).
+:bd Delete the current buffer; will fail if unsaved (nothing is deleted).
+:bd!    Delete the current buffer; will discard any changes (changes are lost).
+
+-----------------------------------
 Tab navigation shortcuts
 -----------------------------------
 <table>
