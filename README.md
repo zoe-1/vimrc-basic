@@ -2,18 +2,18 @@
  vimrc-basic
 #######################
 
-Description: Project contains a basic .vimrc file.   
-A basic .vimrc file to kick start your vim usage.   
+Description: Project contains a basic .vimrc file.
+A basic .vimrc file to kick start your vim usage.
 
-Settings assume you are using Tim Pope's vim-pathogen. 
+Settings assume you are using Tim Pope's vim-pathogen.
 Install pathogen: https://github.com/tpope/vim-pathogen
 
 -----------------------------------
-Commands to Install 
+Commands to Install
 -----------------------------------
-mv basic_vimrc_template &nbsp;&nbsp;&nbsp; ~/.vimrc  
-mkdir ~/.vim-bkup   
-mkdir ~/.vim-tmp  
+mv basic_vimrc_template &nbsp;&nbsp;&nbsp; ~/.vimrc
+mkdir ~/.vim-bkup
+mkdir ~/.vim-tmp
 
 
 -----------------------------------
@@ -77,7 +77,7 @@ Split window shortcuts and commands
 <tr>
 	<td>
 	-- Short cuts to navigate split windows.
- </td> 
+ </td>
 </tr>
 <tr>
 	<td>ctrl+h </td>  <td>		:wincmd h</td> <td>    -- move to view on left</td>
@@ -95,23 +95,25 @@ Split window shortcuts and commands
 	<td> </td> <td> </td> <td> </td>
 </tr>
 </table>
-	
+
 -----------------------------------
-Essential Buffers Commands 
+Essential Buffers Commands
 -----------------------------------
 
-:ls List the current buffers (including their numbers).
-:b <number> Display the buffer with the given number.
-:b <partial> Display the first buffer matching the partial name (or press Tab for name completion).
-:bd Delete the current buffer; will fail if unsaved (nothing is deleted).
-:bd!    Delete the current buffer; will discard any changes (changes are lost).
+command |     description
+------- | ------------------
+**:ls**            |   List the current buffers (including their numbers).<br/>
+**:b** \<number\>    |   Display the buffer with the given number.<br/>
+**:b** \<partial\>   |   Display the first buffer matching the partial name (or press Tab for name completion).<br/>
+**:bd**            |   Delete the current buffer; will fail if unsaved (nothing is deleted).<br/>
+**:bd!**           |   Delete the current buffer; will discard any changes (changes are lost).<br/>
 
 
--- Shortcuts to resize split windows  
-:Zwshrink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink width by 15 spaces.   
-:Zwexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- expand width by 15 spaces  
-:Zhshrink  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink height by 8 spaces  
-:Zhexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;								-- expand height by 8  
+-- Shortcuts to resize split windows
+:Zwshrink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink width by 15 spaces.
+:Zwexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- expand width by 15 spaces
+:Zhshrink  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- shrink height by 8 spaces
+:Zhexpand &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;								-- expand height by 8
 
 
 #### remove whitespace from end of lines
