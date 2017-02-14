@@ -124,3 +124,8 @@ command     |   description
 * F7
 * :Trim
 
+#### spellcheck 
+* :set spell spelllang=en_us
+* :set nospell 
+* ]s [s navigates to misspelled words
+
