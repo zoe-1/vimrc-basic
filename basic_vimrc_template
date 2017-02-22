@@ -46,6 +46,8 @@ nnoremap tl :tablast<CR>
 nnoremap tk :tabp<CR>
 nnoremap tj :tabn<CR>
 
+" avoid the ESC key
+:imap <C-L> <Esc>
 
 """""""""""""""""""""""""""""""""""""""""""" 
 " my Basic Z Commands	
