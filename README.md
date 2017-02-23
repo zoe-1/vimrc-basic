@@ -153,3 +153,4 @@ command     |   description
 [alphabetical function-list](http://vimdoc.sourceforge.net/htmldoc/eval.html#functions)<br/>
 [categorized function-list](http://vimdoc.sourceforge.net/htmldoc/usr_41.html#function-list)<br/>
 
+### [web resources](chapters/webresources.md)
