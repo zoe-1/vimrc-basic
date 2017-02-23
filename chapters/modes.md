@@ -2,9 +2,9 @@
 
 ### visual and visual block
 
-nnoremap    normal mode\n
-vnoremap    visual mode\n
-inoremap    insert mode\n
+`nnoremap`    normal mode<br/>
+`vnoremap`    visual mode<br/>
+`inoremap`    insert mode<br/>
 
 #### visual mode
 * `v`   toggle visual mode
