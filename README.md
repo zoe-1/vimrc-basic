@@ -146,3 +146,10 @@ command     |   description
 
 ### modes
 [modes notes](chapters/modes.md)
+
+### docs
+[table of contents](http://vimdoc.sourceforge.net/htmldoc/usr_toc.html)
+[vim script](http://vimdoc.sourceforge.net/htmldoc/usr_41.html)
+[alphabetical function-list](http://vimdoc.sourceforge.net/htmldoc/eval.html#functions)
+[categorized function-list](http://vimdoc.sourceforge.net/htmldoc/usr_41.html#function-list)
+
