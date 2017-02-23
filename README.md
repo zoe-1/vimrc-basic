@@ -103,7 +103,7 @@ Split window shortcuts and commands
 	<td> ctrl+k </td> <td> :wincmd k</td> <td> -- move to view above</td>
 </tr>
 <tr>
-	<td> ctrl+l      </td> <td> :wincmd l  </td> <td> --move to view on right</td>
+	<td> ctrl+p      </td> <td> :wincmd l  </td> <td> --move to view on right. changed to `p` b/c `C-l` is now escape.</td>
 </tr>
 <tr>
 	<td> </td> <td> </td> <td> </td>
