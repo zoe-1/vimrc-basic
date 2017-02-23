@@ -15,6 +15,20 @@ mv basic_vimrc_template &nbsp;&nbsp;&nbsp; ~/.vimrc
 mkdir ~/.vim-bkup
 mkdir ~/.vim-tmp
 
+-----------------------------------
+Save shortcuts
+-----------------------------------
+C-s will save document (normal, insert, or visual modes)
+* when selecting documents (visual mode), selection is kept. 
+* **stty -ixon**
+    - OSX ~/.profile needs 'stty -ixon' added to turn off blocking  
+    - Linux ~/.bashrc may need 'stty -ixon' added.
+
+-----------------------------------
+Esc shortcut
+-----------------------------------
+C-L     avoid ESC key.
+
 
 -----------------------------------
 Tab navigation shortcuts
@@ -129,3 +143,6 @@ command     |   description
 * :set nospell 
 * ]s [s navigates to misspelled words
 
+
+### modes
+[modes notes](chapters/modes.md)
