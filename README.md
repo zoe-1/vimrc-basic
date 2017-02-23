@@ -148,7 +148,7 @@ command     |   description
 [modes notes](chapters/modes.md)
 
 ### docs
-[table of contents](http://vimdoc.sourceforge.net/htmldoc/usr_toc.html)
+[table of contents](http://vimdoc.sourceforge.net/htmldoc/usr_toc.html)<br/>
 [vim script](http://vimdoc.sourceforge.net/htmldoc/usr_41.html)<br/>
 [alphabetical function-list](http://vimdoc.sourceforge.net/htmldoc/eval.html#functions)<br/>
 [categorized function-list](http://vimdoc.sourceforge.net/htmldoc/usr_41.html#function-list)<br/>
