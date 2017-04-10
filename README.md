@@ -21,6 +21,8 @@ Save shortcuts
 C-s will save document (normal, insert, or visual modes)
 * when selecting documents (visual mode), selection is kept. 
 * **stty -ixon**
+    - put 'stty -ixon' into appropriate file
+      In keyboard settings make capslock equal control.
     - OSX ~/.profile needs 'stty -ixon' added to turn off blocking  
     - Linux ~/.bashrc may need 'stty -ixon' added.
 
