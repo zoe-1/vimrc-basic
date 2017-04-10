@@ -46,6 +46,26 @@ nnoremap tl :tablast<CR>
 nnoremap tk :tabp<CR>
 nnoremap tj :tabn<CR>
 
+" save files with Ctrl-s
+" visual, insert, or normal  modes
+" OSX ~/.profile needs 'stty -ixon' added to turn off blocking
+" Linux ~/.bashrc may need 'stty -ixon' added.
+" sources:
+" http://vim.wikia.com/wiki/Map_Ctrl-S_to_save_current_or_new_files
+" http://unix.stackexchange.com/questions/72086/ctrl-s-hang-terminal-emulator
+" http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)
+command -nargs=0 -bar Save if &modified
+    \|      if empty(bufname('%'))
+    \|          browse confirm write
+    \|      else
+    \|          :w
+    \|      endif
+    \|  endif
+
+nnoremap <silent> <C-s>         :Save<CR>
+vnoremap <silent> <C-s>         <C-C>:Save<CR>gv
+inoremap <silent> <C-s>         <C-O>:Save<CR>
+
 " avoid the ESC key
 :imap <C-L> <Esc>
 
